@@ -1,19 +1,19 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Kaushan";
-  src: url("/src/fonts/KaushanScript-Regular.ttf") format("truetype");
+  src: url("KaushanScript-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Montserrat-Bold";
-  src: url("/src/fonts/Montserrat-Bold.ttf") format("truetype");
+  src: url("Montserrat-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("/src/fonts/Montserrat-Regular.ttf") format("truetype");
+  src: url("Montserrat-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Roboto";
-  src: url("/src/fonts/Roboto-Regular.ttf") format("truetype");
+  src: url("Roboto-Regular.ttf") format("truetype");
 }
 * {
   padding: 0px;
@@ -150,7 +150,7 @@ h6 {
 }
 
 .intro {
-  background: linear-gradient(rgba(232, 131, 130, 0.8), #efd889), url("/src/img/bg.jpg");
+  background: linear-gradient(rgba(232, 131, 130, 0.8), #efd889), url("img/bg.jpg");
   background-size: cover;
   height: 100vh;
   overflow: auto;
@@ -514,7 +514,7 @@ h6 {
 }
 
 .design {
-  background: linear-gradient(to right, rgba(240, 240, 240, 0.7), rgba(240, 240, 240, 0.7)), url("/src/img/bg_design.png") no-repeat;
+  background: linear-gradient(to right, rgba(240, 240, 240, 0.7), rgba(240, 240, 240, 0.7)), url("img/bg_design.png") no-repeat;
   background-size: cover;
 }
 .design__subtitle {
@@ -1091,7 +1091,7 @@ h6 {
 }
 
 .clients {
-  background: linear-gradient(to right, rgba(240, 240, 240, 0.7), rgba(240, 240, 240, 0.7)), url("/src/img/bg-clients.png") no-repeat;
+  background: linear-gradient(to right, rgba(240, 240, 240, 0.7), rgba(240, 240, 240, 0.7)), url("img/bg-clients.png") no-repeat;
   background-size: cover;
 }
 .clients__top {
@@ -1283,7 +1283,7 @@ h6 {
 }
 
 .map {
-  background: linear-gradient(to right, rgba(240, 240, 240, 0.7), rgba(240, 240, 240, 0.7)), url("/src/img/map.png") no-repeat;
+  background: linear-gradient(to right, rgba(240, 240, 240, 0.7), rgba(240, 240, 240, 0.7)), url("img/map.png") no-repeat;
   padding: 60px 0;
   background-size: cover;
   text-align: center;
